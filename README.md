@@ -8,12 +8,12 @@ Macro 'let-where' to allow let bindings to follow code forms like Haskell's
 
 ## Usage
 
-    ```Clojure
+```Clojure
     (let-where forms :where bindings)
 
 ## Example
 
-    ```Clojure
+```Clojure
     (let-where
       (do (println s)
           (println t))
