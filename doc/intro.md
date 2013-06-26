@@ -7,6 +7,7 @@ Macro 'let-where' to allow let bindings to follow code forms like Haskell's
 
 ```Clojure
     (let-where forms :where bindings)
+```
 
 ## Example
 
@@ -16,3 +17,4 @@ Macro 'let-where' to allow let bindings to follow code forms like Haskell's
           (println t))
       :where [s "howdy neighbor!"
               t "how you doing?"])
+```
